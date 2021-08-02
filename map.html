@@ -1,0 +1,1514 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_410d53410d824f14a62500ee337d741d {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_410d53410d824f14a62500ee337d741d" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_410d53410d824f14a62500ee337d741d = L.map(
+        'map_410d53410d824f14a62500ee337d741d', {
+        center: [40.73694859, -73.94689978],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_8f272cc001894feaa57fd823ed9c7ecb = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_410d53410d824f14a62500ee337d741d);
+    
+        var marker_822fbea0d8fd4bceaef661557a4cc660 = L.marker(
+            [40.80188013, -73.8718162],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_d76e1bbe5a2c42e38ad91e1cd7d44f83 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_603f530999b04ced882bbaa2731c6de4 = $(`<div id="html_603f530999b04ced882bbaa2731c6de4" style="width: 100.0%; height: 100.0%;">Hunts Point Landing</div>`)[0];
+                popup_d76e1bbe5a2c42e38ad91e1cd7d44f83.setContent(html_603f530999b04ced882bbaa2731c6de4);
+            
+
+            marker_822fbea0d8fd4bceaef661557a4cc660.bindPopup(popup_d76e1bbe5a2c42e38ad91e1cd7d44f83)
+            ;
+
+            
+        
+    
+        var marker_7e570b60ab5d43e8ba550754792b1372 = L.marker(
+            [40.73906098, -73.95519758],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_9029f349764d4361a7cde95358b69840 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_82b91744b46249a7a8f6bf01e6c8823c = $(`<div id="html_82b91744b46249a7a8f6bf01e6c8823c" style="width: 100.0%; height: 100.0%;">Manhattan Avenue</div>`)[0];
+                popup_9029f349764d4361a7cde95358b69840.setContent(html_82b91744b46249a7a8f6bf01e6c8823c);
+            
+
+            marker_7e570b60ab5d43e8ba550754792b1372.bindPopup(popup_9029f349764d4361a7cde95358b69840)
+            ;
+
+            
+        
+    
+        var marker_50db78fb1c9d4aa6866386c0415f12b6 = L.marker(
+            [40.86930416, -73.93178676],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_9c5339ebc62c4b7aa6d8722641f26fb7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3eeda43321ea4e8ab4a911606a2f69f8 = $(`<div id="html_3eeda43321ea4e8ab4a911606a2f69f8" style="width: 100.0%; height: 100.0%;">Inwood Hill Park</div>`)[0];
+                popup_9c5339ebc62c4b7aa6d8722641f26fb7.setContent(html_3eeda43321ea4e8ab4a911606a2f69f8);
+            
+
+            marker_50db78fb1c9d4aa6866386c0415f12b6.bindPopup(popup_9c5339ebc62c4b7aa6d8722641f26fb7)
+            ;
+
+            
+        
+    
+        var marker_fd3ceb1e1cc245dfbf5c0d5a642ca62a = L.marker(
+            [40.54136335, -74.14243279],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_e1f0c98a44e14d33846dc5b16d51e35a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b26b59c298e14971b3303e3e951a03c2 = $(`<div id="html_b26b59c298e14971b3303e3e951a03c2" style="width: 100.0%; height: 100.0%;">Seaside Wildlife Nature Park</div>`)[0];
+                popup_e1f0c98a44e14d33846dc5b16d51e35a.setContent(html_b26b59c298e14971b3303e3e951a03c2);
+            
+
+            marker_fd3ceb1e1cc245dfbf5c0d5a642ca62a.bindPopup(popup_e1f0c98a44e14d33846dc5b16d51e35a)
+            ;
+
+            
+        
+    
+        var marker_bbc5bd5ae1514704bd56b7297251686b = L.marker(
+            [40.80503153, -73.8878624],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_525dccfb824b4cdcaa5bd485c702b142 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6adb3a5376814df18491013c33cea59f = $(`<div id="html_6adb3a5376814df18491013c33cea59f" style="width: 100.0%; height: 100.0%;">Barretto Point Park</div>`)[0];
+                popup_525dccfb824b4cdcaa5bd485c702b142.setContent(html_6adb3a5376814df18491013c33cea59f);
+            
+
+            marker_bbc5bd5ae1514704bd56b7297251686b.bindPopup(popup_525dccfb824b4cdcaa5bd485c702b142)
+            ;
+
+            
+        
+    
+        var marker_d1e8af492d324375b38e52c81f848bfc = L.marker(
+            [40.88444483, -73.86725455],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_2bbafc437a774d2d8a860c1f75b7d502 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3a51be21261a4cce815288b700d88773 = $(`<div id="html_3a51be21261a4cce815288b700d88773" style="width: 100.0%; height: 100.0%;">Shoelace (Bronx River Parkway)</div>`)[0];
+                popup_2bbafc437a774d2d8a860c1f75b7d502.setContent(html_3a51be21261a4cce815288b700d88773);
+            
+
+            marker_d1e8af492d324375b38e52c81f848bfc.bindPopup(popup_2bbafc437a774d2d8a860c1f75b7d502)
+            ;
+
+            
+        
+    
+        var marker_ef95a630cfd346b98dab5fdd2f2e72e8 = L.marker(
+            [40.82448588, -73.88518925],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_6bc44ce4258e4fbb8f347ac905436ea4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_61482e1aec1b4cdba47e19fe8adb2589 = $(`<div id="html_61482e1aec1b4cdba47e19fe8adb2589" style="width: 100.0%; height: 100.0%;">Concrete Plant Park</div>`)[0];
+                popup_6bc44ce4258e4fbb8f347ac905436ea4.setContent(html_61482e1aec1b4cdba47e19fe8adb2589);
+            
+
+            marker_ef95a630cfd346b98dab5fdd2f2e72e8.bindPopup(popup_6bc44ce4258e4fbb8f347ac905436ea4)
+            ;
+
+            
+        
+    
+        var marker_b875c9a8c7fc489db4b9f77d19ce0511 = L.marker(
+            [40.81785811, -73.88137543],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_ec139184bdb7473abead8ddf41163873 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_117370d3a75d48ae9a68e67a2f488093 = $(`<div id="html_117370d3a75d48ae9a68e67a2f488093" style="width: 100.0%; height: 100.0%;">Hunts Point Riverside Park</div>`)[0];
+                popup_ec139184bdb7473abead8ddf41163873.setContent(html_117370d3a75d48ae9a68e67a2f488093);
+            
+
+            marker_b875c9a8c7fc489db4b9f77d19ce0511.bindPopup(popup_ec139184bdb7473abead8ddf41163873)
+            ;
+
+            
+        
+    
+        var marker_07a343412f364be2a35e29ba7bf0b54b = L.marker(
+            [40.85487447, -73.92041657],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_20237873d3144a8bad1d08894901c363 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_da816eb4f288466fb2799cb730e10624 = $(`<div id="html_da816eb4f288466fb2799cb730e10624" style="width: 100.0%; height: 100.0%;">Roberto Clemente State Park</div>`)[0];
+                popup_20237873d3144a8bad1d08894901c363.setContent(html_da816eb4f288466fb2799cb730e10624);
+            
+
+            marker_07a343412f364be2a35e29ba7bf0b54b.bindPopup(popup_20237873d3144a8bad1d08894901c363)
+            ;
+
+            
+        
+    
+        var marker_56fab0e291584d6c8a5315b0dcb377a0 = L.marker(
+            [40.81060477, -73.86670061],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_009c92316b87410083e9cf4de34e4be9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e7c538a34db44546a55ca920000a5c1e = $(`<div id="html_e7c538a34db44546a55ca920000a5c1e" style="width: 100.0%; height: 100.0%;">Soundview Park</div>`)[0];
+                popup_009c92316b87410083e9cf4de34e4be9.setContent(html_e7c538a34db44546a55ca920000a5c1e);
+            
+
+            marker_56fab0e291584d6c8a5315b0dcb377a0.bindPopup(popup_009c92316b87410083e9cf4de34e4be9)
+            ;
+
+            
+        
+    
+        var marker_deacf2c3d2464acfbc74bc139abad04c = L.marker(
+            [40.8325157, -73.88288066],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_d78450ebc284463eadd45f59bb02a982 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_14f5c6557e254f13b7f71e71526beb02 = $(`<div id="html_14f5c6557e254f13b7f71e71526beb02" style="width: 100.0%; height: 100.0%;">Starlight Park</div>`)[0];
+                popup_d78450ebc284463eadd45f59bb02a982.setContent(html_14f5c6557e254f13b7f71e71526beb02);
+            
+
+            marker_deacf2c3d2464acfbc74bc139abad04c.bindPopup(popup_d78450ebc284463eadd45f59bb02a982)
+            ;
+
+            
+        
+    
+        var marker_a08aa887744842e59ecaebd635b92bd6 = L.marker(
+            [40.63038364, -73.88382452],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_586c99c524954cb3b420b108baf3f084 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1e0b8fb7b61a47a6b2915bcf45c01af8 = $(`<div id="html_1e0b8fb7b61a47a6b2915bcf45c01af8" style="width: 100.0%; height: 100.0%;">Canarsie Pier (GNRA - Jamaica Bay Unit)</div>`)[0];
+                popup_586c99c524954cb3b420b108baf3f084.setContent(html_1e0b8fb7b61a47a6b2915bcf45c01af8);
+            
+
+            marker_a08aa887744842e59ecaebd635b92bd6.bindPopup(popup_586c99c524954cb3b420b108baf3f084)
+            ;
+
+            
+        
+    
+        var marker_77304821981e4d1bad6feb19ba8d1e13 = L.marker(
+            [40.59589608, -73.88139251],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_a31965ffbcc0436aa51a4e5c5bcd0707 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d3bf812a174b4a898c00e084b91b43f2 = $(`<div id="html_d3bf812a174b4a898c00e084b91b43f2" style="width: 100.0%; height: 100.0%;">Floyd Bennett Field (GNRA - Jamaica Bay Unit)</div>`)[0];
+                popup_a31965ffbcc0436aa51a4e5c5bcd0707.setContent(html_d3bf812a174b4a898c00e084b91b43f2);
+            
+
+            marker_77304821981e4d1bad6feb19ba8d1e13.bindPopup(popup_a31965ffbcc0436aa51a4e5c5bcd0707)
+            ;
+
+            
+        
+    
+        var marker_44b01812271643f8aad173deeb9c24e2 = L.marker(
+            [40.67863295, -74.01823181],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_c66af19c2bf34d3d9941881d1bb39bb0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6d8a012c899247f086586e734d5c2aba = $(`<div id="html_6d8a012c899247f086586e734d5c2aba" style="width: 100.0%; height: 100.0%;">Louis J Valentino, Jr Park & Pier</div>`)[0];
+                popup_c66af19c2bf34d3d9941881d1bb39bb0.setContent(html_6d8a012c899247f086586e734d5c2aba);
+            
+
+            marker_44b01812271643f8aad173deeb9c24e2.bindPopup(popup_c66af19c2bf34d3d9941881d1bb39bb0)
+            ;
+
+            
+        
+    
+        var marker_dceea67f2d8143e688e5c59b9a06e17d = L.marker(
+            [40.58275341, -73.9210055],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_d7851f37dbf94f6898c1805e0be84114 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a07ab7be2b5b49f9bc65688931c8287a = $(`<div id="html_a07ab7be2b5b49f9bc65688931c8287a" style="width: 100.0%; height: 100.0%;">Plumb Beach (GNRA - Jamaica Bay Unit)</div>`)[0];
+                popup_d7851f37dbf94f6898c1805e0be84114.setContent(html_a07ab7be2b5b49f9bc65688931c8287a);
+            
+
+            marker_dceea67f2d8143e688e5c59b9a06e17d.bindPopup(popup_d7851f37dbf94f6898c1805e0be84114)
+            ;
+
+            
+        
+    
+        var marker_38d1ce7d9c784200b2b0c52192e497bc = L.marker(
+            [40.61280147, -73.77160521],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_9189aec6742a41918f517ae915db9040 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5fbbb7d3cee94ce5857acb4295a17de9 = $(`<div id="html_5fbbb7d3cee94ce5857acb4295a17de9" style="width: 100.0%; height: 100.0%;">Bayswater Point State Park</div>`)[0];
+                popup_9189aec6742a41918f517ae915db9040.setContent(html_5fbbb7d3cee94ce5857acb4295a17de9);
+            
+
+            marker_38d1ce7d9c784200b2b0c52192e497bc.bindPopup(popup_9189aec6742a41918f517ae915db9040)
+            ;
+
+            
+        
+    
+        var marker_dabe2da8b9354553a1063cf5fa532349 = L.marker(
+            [40.55003127, -73.9342483],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_eee40d829fb04e53b173996dbdedf74c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3dcfc7b7c71e48b9bb56bb45a5c797e1 = $(`<div id="html_3dcfc7b7c71e48b9bb56bb45a5c797e1" style="width: 100.0%; height: 100.0%;">Breezy Point Tip (GNRA - Jamaica Bay Unit)</div>`)[0];
+                popup_eee40d829fb04e53b173996dbdedf74c.setContent(html_3dcfc7b7c71e48b9bb56bb45a5c797e1);
+            
+
+            marker_dabe2da8b9354553a1063cf5fa532349.bindPopup(popup_eee40d829fb04e53b173996dbdedf74c)
+            ;
+
+            
+        
+    
+        var marker_f321938c5a23452d93a3523cf06c16c3 = L.marker(
+            [40.79716699, -73.82463323],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_edbf982ac8a644eba5522d8a17fdb324 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_57f2a3596d684c4695105956aac1810c = $(`<div id="html_57f2a3596d684c4695105956aac1810c" style="width: 100.0%; height: 100.0%;">Francis Lewis Park</div>`)[0];
+                popup_edbf982ac8a644eba5522d8a17fdb324.setContent(html_57f2a3596d684c4695105956aac1810c);
+            
+
+            marker_f321938c5a23452d93a3523cf06c16c3.bindPopup(popup_edbf982ac8a644eba5522d8a17fdb324)
+            ;
+
+            
+        
+    
+        var marker_8e4bf03bfad34c70a2949ed9f7076cec = L.marker(
+            [40.79305954, -73.84875537],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_3bc2cac45db544f18cfba4f0cf024305 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2523a00fc3344a03bec1e3864a3a18ed = $(`<div id="html_2523a00fc3344a03bec1e3864a3a18ed" style="width: 100.0%; height: 100.0%;">Hermon A MacNeil Park</div>`)[0];
+                popup_3bc2cac45db544f18cfba4f0cf024305.setContent(html_2523a00fc3344a03bec1e3864a3a18ed);
+            
+
+            marker_8e4bf03bfad34c70a2949ed9f7076cec.bindPopup(popup_3bc2cac45db544f18cfba4f0cf024305)
+            ;
+
+            
+        
+    
+        var marker_fd2a6145e8434e8d9c0135dccac32eef = L.marker(
+            [40.56814572, -73.88503323],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_02ac80a0cbbf4356811780120bc3bf4e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2a5ce8c040644527b330e6902fcbabd4 = $(`<div id="html_2a5ce8c040644527b330e6902fcbabd4" style="width: 100.0%; height: 100.0%;">Jacob Riis Park (GNRA - Jamaica Bay Unit)</div>`)[0];
+                popup_02ac80a0cbbf4356811780120bc3bf4e.setContent(html_2a5ce8c040644527b330e6902fcbabd4);
+            
+
+            marker_fd2a6145e8434e8d9c0135dccac32eef.bindPopup(popup_02ac80a0cbbf4356811780120bc3bf4e)
+            ;
+
+            
+        
+    
+        var marker_3bce7117ee6d4ae3b59c9c188d848d7a = L.marker(
+            [40.79128452, -73.78247112],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_d9bfbee819eb4287b7d270fc393f679e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_716d7a8a37414aa8a77c14dd239b87de = $(`<div id="html_716d7a8a37414aa8a77c14dd239b87de" style="width: 100.0%; height: 100.0%;">Little Bay Park (Fort Totten)</div>`)[0];
+                popup_d9bfbee819eb4287b7d270fc393f679e.setContent(html_716d7a8a37414aa8a77c14dd239b87de);
+            
+
+            marker_3bce7117ee6d4ae3b59c9c188d848d7a.bindPopup(popup_d9bfbee819eb4287b7d270fc393f679e)
+            ;
+
+            
+        
+    
+        var marker_f768f46a7d0f475d990cd994a13f57cf = L.marker(
+            [40.76935097, -73.93566608],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_e2b52ccd0c77454f986f5128dfb643b0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7c9e6fd219bf4ef1ae5397cbe38bc458 = $(`<div id="html_7c9e6fd219bf4ef1ae5397cbe38bc458" style="width: 100.0%; height: 100.0%;">Hallets Cove Beach (Socrates Sculpture Park)</div>`)[0];
+                popup_e2b52ccd0c77454f986f5128dfb643b0.setContent(html_7c9e6fd219bf4ef1ae5397cbe38bc458);
+            
+
+            marker_f768f46a7d0f475d990cd994a13f57cf.bindPopup(popup_e2b52ccd0c77454f986f5128dfb643b0)
+            ;
+
+            
+        
+    
+        var marker_9c3fd05b173f4dc68c5abd4fb8669e7c = L.marker(
+            [40.52687569, -74.16406511],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_3d7cb2a47e4942c39e27d534898ff714 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4ee70709060b48d1a02c55c696413a6f = $(`<div id="html_4ee70709060b48d1a02c55c696413a6f" style="width: 100.0%; height: 100.0%;">Bayview Terrace Park</div>`)[0];
+                popup_3d7cb2a47e4942c39e27d534898ff714.setContent(html_4ee70709060b48d1a02c55c696413a6f);
+            
+
+            marker_9c3fd05b173f4dc68c5abd4fb8669e7c.bindPopup(popup_3d7cb2a47e4942c39e27d534898ff714)
+            ;
+
+            
+        
+    
+        var marker_7bca0cc15d044b9d8fbd344f16af71c7 = L.marker(
+            [40.72148922, -74.01309757],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_ac5f433bd7dc4b4793749cdc12d926d9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_51030fd097be444ca9d622b7e9f57997 = $(`<div id="html_51030fd097be444ca9d622b7e9f57997" style="width: 100.0%; height: 100.0%;">Hudson River Park (Pier 26)</div>`)[0];
+                popup_ac5f433bd7dc4b4793749cdc12d926d9.setContent(html_51030fd097be444ca9d622b7e9f57997);
+            
+
+            marker_7bca0cc15d044b9d8fbd344f16af71c7.bindPopup(popup_ac5f433bd7dc4b4793749cdc12d926d9)
+            ;
+
+            
+        
+    
+        var marker_24c6564130514ed795a48465b64e8735 = L.marker(
+            [40.50163473, -74.23987131],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_53ddc92123684c328db68379ffb195a9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8f4e475de5664773a7b181790e459564 = $(`<div id="html_8f4e475de5664773a7b181790e459564" style="width: 100.0%; height: 100.0%;">Conference House Park</div>`)[0];
+                popup_53ddc92123684c328db68379ffb195a9.setContent(html_8f4e475de5664773a7b181790e459564);
+            
+
+            marker_24c6564130514ed795a48465b64e8735.bindPopup(popup_53ddc92123684c328db68379ffb195a9)
+            ;
+
+            
+        
+    
+        var marker_fc0f2361fb4443669b67b0d2b4a7c331 = L.marker(
+            [40.56896252, -74.08948538],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_a0d532f17983479989da705ddcecede6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_92e4e81d26ae4b369cfeaa921b876624 = $(`<div id="html_92e4e81d26ae4b369cfeaa921b876624" style="width: 100.0%; height: 100.0%;">Midland Beach</div>`)[0];
+                popup_a0d532f17983479989da705ddcecede6.setContent(html_92e4e81d26ae4b369cfeaa921b876624);
+            
+
+            marker_fc0f2361fb4443669b67b0d2b4a7c331.bindPopup(popup_a0d532f17983479989da705ddcecede6)
+            ;
+
+            
+        
+    
+        var marker_181aa30fbaab49f598593971ac6a38b6 = L.marker(
+            [40.54367252, -74.12741226],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_718f00b1ccc14c64ad776adec75f398e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_719e66b3e49541a09ca9429cc20bbcc0 = $(`<div id="html_719e66b3e49541a09ca9429cc20bbcc0" style="width: 100.0%; height: 100.0%;">Great Kills Park (GNRA)</div>`)[0];
+                popup_718f00b1ccc14c64ad776adec75f398e.setContent(html_719e66b3e49541a09ca9429cc20bbcc0);
+            
+
+            marker_181aa30fbaab49f598593971ac6a38b6.bindPopup(popup_718f00b1ccc14c64ad776adec75f398e)
+            ;
+
+            
+        
+    
+        var marker_c5ca87bbb7834267a9496707963633e3 = L.marker(
+            [40.51282395, -74.19838874],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_e98e22d2e70a452c94526d04af9b9d46 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_277fb1ebb1a1408bb0c50bffcb95a928 = $(`<div id="html_277fb1ebb1a1408bb0c50bffcb95a928" style="width: 100.0%; height: 100.0%;">Lemon Creek Marina</div>`)[0];
+                popup_e98e22d2e70a452c94526d04af9b9d46.setContent(html_277fb1ebb1a1408bb0c50bffcb95a928);
+            
+
+            marker_c5ca87bbb7834267a9496707963633e3.bindPopup(popup_e98e22d2e70a452c94526d04af9b9d46)
+            ;
+
+            
+        
+    
+        var marker_60bea5e46eaf42e79720eaec94e21fa1 = L.marker(
+            [40.6155968, -74.06302798],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_efecd5856e19428480c49eb416e8b2de = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_58712a869fa844cd952802426e594f94 = $(`<div id="html_58712a869fa844cd952802426e594f94" style="width: 100.0%; height: 100.0%;">Alice Austen House and Park</div>`)[0];
+                popup_efecd5856e19428480c49eb416e8b2de.setContent(html_58712a869fa844cd952802426e594f94);
+            
+
+            marker_60bea5e46eaf42e79720eaec94e21fa1.bindPopup(popup_efecd5856e19428480c49eb416e8b2de)
+            ;
+
+            
+        
+    
+        var marker_7b284dc1c01247a0a8054ed88f73d606 = L.marker(
+            [40.64930888, -73.73689192],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_704cf64e0ef84945ab64101d541d9d05 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fa0874d39b624dca830d6cf74a636e09 = $(`<div id="html_fa0874d39b624dca830d6cf74a636e09" style="width: 100.0%; height: 100.0%;">Idlewild Park</div>`)[0];
+                popup_704cf64e0ef84945ab64101d541d9d05.setContent(html_fa0874d39b624dca830d6cf74a636e09);
+            
+
+            marker_7b284dc1c01247a0a8054ed88f73d606.bindPopup(popup_704cf64e0ef84945ab64101d541d9d05)
+            ;
+
+            
+        
+    
+        var marker_09b1146bd69f42b1bfe877ca4ddc854a = L.marker(
+            [40.82055137, -73.95958715],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_a03fa0cdd9064c92a04e64536a1551a8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_010cdf50496d4a01af9a4f032bba519f = $(`<div id="html_010cdf50496d4a01af9a4f032bba519f" style="width: 100.0%; height: 100.0%;">West Harlem Piers Park</div>`)[0];
+                popup_a03fa0cdd9064c92a04e64536a1551a8.setContent(html_010cdf50496d4a01af9a4f032bba519f);
+            
+
+            marker_09b1146bd69f42b1bfe877ca4ddc854a.bindPopup(popup_a03fa0cdd9064c92a04e64536a1551a8)
+            ;
+
+            
+        
+    
+        var marker_15af89156b5e4e9393244953dfb754f5 = L.marker(
+            [40.73694859, -73.94689978],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_6bd0b9d40cbe466eb517ad0e4b8c14c9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ad2b8c01528547139d55ebefc95bc598 = $(`<div id="html_ad2b8c01528547139d55ebefc95bc598" style="width: 100.0%; height: 100.0%;">Newtown Creek Nature Walk</div>`)[0];
+                popup_6bd0b9d40cbe466eb517ad0e4b8c14c9.setContent(html_ad2b8c01528547139d55ebefc95bc598);
+            
+
+            marker_15af89156b5e4e9393244953dfb754f5.bindPopup(popup_6bd0b9d40cbe466eb517ad0e4b8c14c9)
+            ;
+
+            
+        
+    
+        var marker_8b5611ed876a4196ad5447fa00bf7c81 = L.marker(
+            [40.87352755, -73.9182963],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_74f27260b5fc4e4e8f972898fd0f2ef7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_81adbe0a77ea454e8c531d7736833867 = $(`<div id="html_81adbe0a77ea454e8c531d7736833867" style="width: 100.0%; height: 100.0%;">Campbell Sports Center/Muscota Marsh</div>`)[0];
+                popup_74f27260b5fc4e4e8f972898fd0f2ef7.setContent(html_81adbe0a77ea454e8c531d7736833867);
+            
+
+            marker_8b5611ed876a4196ad5447fa00bf7c81.bindPopup(popup_74f27260b5fc4e4e8f972898fd0f2ef7)
+            ;
+
+            
+        
+    
+        var marker_44029f3379e34a258256e8942440237a = L.marker(
+            [40.76330887, -73.84346945],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_c815f92320fd4d4881f9587da900fb2f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e2b59a6a8d644534a79c1f94e1611333 = $(`<div id="html_e2b59a6a8d644534a79c1f94e1611333" style="width: 100.0%; height: 100.0%;">Flushing Meadows Corona Park</div>`)[0];
+                popup_c815f92320fd4d4881f9587da900fb2f.setContent(html_e2b59a6a8d644534a79c1f94e1611333);
+            
+
+            marker_44029f3379e34a258256e8942440237a.bindPopup(popup_c815f92320fd4d4881f9587da900fb2f)
+            ;
+
+            
+        
+    
+        var marker_08a29d5038d0433bb8c4e38e55a10db8 = L.marker(
+            [40.69132517, -74.01268225],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_f32b068c869d4c03aeaf6be5d38bf3ef = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5d315b37b52f49a5900a8d0a887a6424 = $(`<div id="html_5d315b37b52f49a5900a8d0a887a6424" style="width: 100.0%; height: 100.0%;">Governors Island</div>`)[0];
+                popup_f32b068c869d4c03aeaf6be5d38bf3ef.setContent(html_5d315b37b52f49a5900a8d0a887a6424);
+            
+
+            marker_08a29d5038d0433bb8c4e38e55a10db8.bindPopup(popup_f32b068c869d4c03aeaf6be5d38bf3ef)
+            ;
+
+            
+        
+    
+        var marker_87e8ce89ae524625b28dc157c6afd12d = L.marker(
+            [40.5975492, -73.76816042],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_0780591773d04aec9ff26d7fb19240de = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_20472da5b29c4a058f21297e4dc5b798 = $(`<div id="html_20472da5b29c4a058f21297e4dc5b798" style="width: 100.0%; height: 100.0%;">Bayswater Park</div>`)[0];
+                popup_0780591773d04aec9ff26d7fb19240de.setContent(html_20472da5b29c4a058f21297e4dc5b798);
+            
+
+            marker_87e8ce89ae524625b28dc157c6afd12d.bindPopup(popup_0780591773d04aec9ff26d7fb19240de)
+            ;
+
+            
+        
+    
+        var marker_12cb96e87cd64446ab1718c13478e5a8 = L.marker(
+            [40.86019357, -73.91860453],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_0a4c06cec02c4c1d996e764e93a6b48f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3621ac0ebef8415886905f455075ae03 = $(`<div id="html_3621ac0ebef8415886905f455075ae03" style="width: 100.0%; height: 100.0%;">Sherman Creek Park</div>`)[0];
+                popup_0a4c06cec02c4c1d996e764e93a6b48f.setContent(html_3621ac0ebef8415886905f455075ae03);
+            
+
+            marker_12cb96e87cd64446ab1718c13478e5a8.bindPopup(popup_0a4c06cec02c4c1d996e764e93a6b48f)
+            ;
+
+            
+        
+    
+        var marker_b0dde0c177764dc8b4c414175664ed1a = L.marker(
+            [40.70100165, -73.99670392],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_66f13bd7fafc42ed894d0cc606b849e8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_96675fe61a78420e93e79f4bf2d38535 = $(`<div id="html_96675fe61a78420e93e79f4bf2d38535" style="width: 100.0%; height: 100.0%;">Brooklyn Bridge Park</div>`)[0];
+                popup_66f13bd7fafc42ed894d0cc606b849e8.setContent(html_96675fe61a78420e93e79f4bf2d38535);
+            
+
+            marker_b0dde0c177764dc8b4c414175664ed1a.bindPopup(popup_66f13bd7fafc42ed894d0cc606b849e8)
+            ;
+
+            
+        
+    
+        var marker_4b269afcde064886ad73e1bba04268ae = L.marker(
+            [40.87227323, -73.79731785],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_d717c61c5608410ebfd83d4c72791bb0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_31bc053a6a1d4aa1b48561dbe0f772b6 = $(`<div id="html_31bc053a6a1d4aa1b48561dbe0f772b6" style="width: 100.0%; height: 100.0%;">Pelham Bay Park (Orchard Beach Lagoon)</div>`)[0];
+                popup_d717c61c5608410ebfd83d4c72791bb0.setContent(html_31bc053a6a1d4aa1b48561dbe0f772b6);
+            
+
+            marker_4b269afcde064886ad73e1bba04268ae.bindPopup(popup_d717c61c5608410ebfd83d4c72791bb0)
+            ;
+
+            
+        
+    
+        var marker_1b810638bd2c4c31bb60929ba9de9d0c = L.marker(
+            [40.80513873, -73.84885883],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_002b4bbe4bea48a28916a09504dbdffe = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4f0426f5041e4f5d897daa6d0d0ee159 = $(`<div id="html_4f0426f5041e4f5d897daa6d0d0ee159" style="width: 100.0%; height: 100.0%;">Clason Point Park</div>`)[0];
+                popup_002b4bbe4bea48a28916a09504dbdffe.setContent(html_4f0426f5041e4f5d897daa6d0d0ee159);
+            
+
+            marker_1b810638bd2c4c31bb60929ba9de9d0c.bindPopup(popup_002b4bbe4bea48a28916a09504dbdffe)
+            ;
+
+            
+        
+    
+        var marker_6ae7bab10168468489de7726b1a17fa0 = L.marker(
+            [40.61207345, -73.9023099],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_8aea008eb3d34c7d95a75cd26a0ca9ea = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_347f01168c2e4989a5b3361a40a16e73 = $(`<div id="html_347f01168c2e4989a5b3361a40a16e73" style="width: 100.0%; height: 100.0%;">Mill Basin Marina</div>`)[0];
+                popup_8aea008eb3d34c7d95a75cd26a0ca9ea.setContent(html_347f01168c2e4989a5b3361a40a16e73);
+            
+
+            marker_6ae7bab10168468489de7726b1a17fa0.bindPopup(popup_8aea008eb3d34c7d95a75cd26a0ca9ea)
+            ;
+
+            
+        
+    
+        var marker_88ee0d54832349d28314b0b9998ef348 = L.marker(
+            [40.6768924, -73.98984038],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_59f6e1be6bd848b38ae17accb7368c0f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a14514e7bcc24bb098950c6db8770116 = $(`<div id="html_a14514e7bcc24bb098950c6db8770116" style="width: 100.0%; height: 100.0%;">Gowanus Canal</div>`)[0];
+                popup_59f6e1be6bd848b38ae17accb7368c0f.setContent(html_a14514e7bcc24bb098950c6db8770116);
+            
+
+            marker_88ee0d54832349d28314b0b9998ef348.bindPopup(popup_59f6e1be6bd848b38ae17accb7368c0f)
+            ;
+
+            
+        
+    
+        var marker_2aad66fa07bb4a8a8e327aa051dd3ffa = L.marker(
+            [40.62667068, -73.90448178],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_dec0b377925c463595c5863d4ad051bc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9fd6af43d085474f94b108103c127b49 = $(`<div id="html_9fd6af43d085474f94b108103c127b49" style="width: 100.0%; height: 100.0%;">Sebago Canoe Club (Paerdegat Basin)</div>`)[0];
+                popup_dec0b377925c463595c5863d4ad051bc.setContent(html_9fd6af43d085474f94b108103c127b49);
+            
+
+            marker_2aad66fa07bb4a8a8e327aa051dd3ffa.bindPopup(popup_dec0b377925c463595c5863d4ad051bc)
+            ;
+
+            
+        
+    
+        var marker_aa77e2f377674c869ee298a1c8c0ec16 = L.marker(
+            [40.60237096, -73.93203322],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_77668890af8b407d9cbae2a65b9ef4bb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_04593fdab7dd4d9ba87b15293ec5f472 = $(`<div id="html_04593fdab7dd4d9ba87b15293ec5f472" style="width: 100.0%; height: 100.0%;">Salt Marsh Nature Center (Gerritsen Inlet)</div>`)[0];
+                popup_77668890af8b407d9cbae2a65b9ef4bb.setContent(html_04593fdab7dd4d9ba87b15293ec5f472);
+            
+
+            marker_aa77e2f377674c869ee298a1c8c0ec16.bindPopup(popup_77668890af8b407d9cbae2a65b9ef4bb)
+            ;
+
+            
+        
+    
+        var marker_d984719a11094eee8e00701a97198f15 = L.marker(
+            [40.58944905, -74.06552079],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_7c7daaaf2d2c4cf5bc379e173aee6996 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a59cf73fa097481b89b3486421f25b9a = $(`<div id="html_a59cf73fa097481b89b3486421f25b9a" style="width: 100.0%; height: 100.0%;">South Beach</div>`)[0];
+                popup_7c7daaaf2d2c4cf5bc379e173aee6996.setContent(html_a59cf73fa097481b89b3486421f25b9a);
+            
+
+            marker_d984719a11094eee8e00701a97198f15.bindPopup(popup_7c7daaaf2d2c4cf5bc379e173aee6996)
+            ;
+
+            
+        
+    
+        var marker_1ca9dd7d802841f1b98f6c8eeeeccd87 = L.marker(
+            [40.56341967, -74.09545469],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_d87a1e5c72bc468881e143a66bdd9e75 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4d230418445247ce8067eb1648c17e87 = $(`<div id="html_4d230418445247ce8067eb1648c17e87" style="width: 100.0%; height: 100.0%;">Cedar Grove Beach</div>`)[0];
+                popup_d87a1e5c72bc468881e143a66bdd9e75.setContent(html_4d230418445247ce8067eb1648c17e87);
+            
+
+            marker_1ca9dd7d802841f1b98f6c8eeeeccd87.bindPopup(popup_d87a1e5c72bc468881e143a66bdd9e75)
+            ;
+
+            
+        
+    
+        var marker_62e2f34d30c44c5ca360af0e0a76cc8a = L.marker(
+            [40.77953278, -73.7683994],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_d1d4bd880b884d4297f21cc3686ec748 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f5a575793c2642b08d91f81f1fc62828 = $(`<div id="html_f5a575793c2642b08d91f81f1fc62828" style="width: 100.0%; height: 100.0%;">Bayside Marina</div>`)[0];
+                popup_d1d4bd880b884d4297f21cc3686ec748.setContent(html_f5a575793c2642b08d91f81f1fc62828);
+            
+
+            marker_62e2f34d30c44c5ca360af0e0a76cc8a.bindPopup(popup_d1d4bd880b884d4297f21cc3686ec748)
+            ;
+
+            
+        
+    
+        var marker_5c43823898af4b17b929015ca3affa33 = L.marker(
+            [40.63835917, -73.83164009],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_2a90ca687661418eb9279846f3b87c10 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dc703825b6534149ae4e753c101e7823 = $(`<div id="html_dc703825b6534149ae4e753c101e7823" style="width: 100.0%; height: 100.0%;">North Channel Beach</div>`)[0];
+                popup_2a90ca687661418eb9279846f3b87c10.setContent(html_dc703825b6534149ae4e753c101e7823);
+            
+
+            marker_5c43823898af4b17b929015ca3affa33.bindPopup(popup_2a90ca687661418eb9279846f3b87c10)
+            ;
+
+            
+        
+    
+        var marker_693d95cc909e45328fa6a56f40898ad6 = L.marker(
+            [40.72016609, -74.01453672],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_0d872a5f46de4ad78db16e4d37ce6988 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c5aadb18fe6942279be1c4f7974f7ee3 = $(`<div id="html_c5aadb18fe6942279be1c4f7974f7ee3" style="width: 100.0%; height: 100.0%;">Hudson River Park (Pier 25)</div>`)[0];
+                popup_0d872a5f46de4ad78db16e4d37ce6988.setContent(html_c5aadb18fe6942279be1c4f7974f7ee3);
+            
+
+            marker_693d95cc909e45328fa6a56f40898ad6.bindPopup(popup_0d872a5f46de4ad78db16e4d37ce6988)
+            ;
+
+            
+        
+    
+        var marker_9567ec03615b4e62a650442d1cf92ec7 = L.marker(
+            [40.72843976, -74.01370129],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_4d8c78aa3750428c85150418ace26de9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4fa93eef4fa5439284a33b2bd7ad2218 = $(`<div id="html_4fa93eef4fa5439284a33b2bd7ad2218" style="width: 100.0%; height: 100.0%;">Hudson River Park (Pier 40)</div>`)[0];
+                popup_4d8c78aa3750428c85150418ace26de9.setContent(html_4fa93eef4fa5439284a33b2bd7ad2218);
+            
+
+            marker_9567ec03615b4e62a650442d1cf92ec7.bindPopup(popup_4d8c78aa3750428c85150418ace26de9)
+            ;
+
+            
+        
+    
+        var marker_b255045fded644339679b977bf4e9bb0 = L.marker(
+            [40.7713079, -73.99518267],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_beeb9e0d35a841f9b3dd6811589f172c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_807f72a0b0cc4891a5a80c7b7a5c9ac9 = $(`<div id="html_807f72a0b0cc4891a5a80c7b7a5c9ac9" style="width: 100.0%; height: 100.0%;">Hudson River Park (Pier 96)</div>`)[0];
+                popup_beeb9e0d35a841f9b3dd6811589f172c.setContent(html_807f72a0b0cc4891a5a80c7b7a5c9ac9);
+            
+
+            marker_b255045fded644339679b977bf4e9bb0.bindPopup(popup_beeb9e0d35a841f9b3dd6811589f172c)
+            ;
+
+            
+        
+    
+        var marker_06e00e25cc8947539355bae103608bcd = L.marker(
+            [40.76407445, -74.00156949],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_9fc61f017d5446e89a19919e7584c528 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_430a612635e846aea95ad27c410f4407 = $(`<div id="html_430a612635e846aea95ad27c410f4407" style="width: 100.0%; height: 100.0%;">Hudson River Park (Pier 84)</div>`)[0];
+                popup_9fc61f017d5446e89a19919e7584c528.setContent(html_430a612635e846aea95ad27c410f4407);
+            
+
+            marker_06e00e25cc8947539355bae103608bcd.bindPopup(popup_9fc61f017d5446e89a19919e7584c528)
+            ;
+
+            
+        
+    
+        var marker_4110b3d76f9a4e2091100e23df516300 = L.marker(
+            [40.75221838, -74.00840554],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_3a05b18fcb0149668ab4e363dc2c5281 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8514bc4c181c4463b6c7d4b9c7303344 = $(`<div id="html_8514bc4c181c4463b6c7d4b9c7303344" style="width: 100.0%; height: 100.0%;">Hudson River Park (Pier 66)</div>`)[0];
+                popup_3a05b18fcb0149668ab4e363dc2c5281.setContent(html_8514bc4c181c4463b6c7d4b9c7303344);
+            
+
+            marker_4110b3d76f9a4e2091100e23df516300.bindPopup(popup_3a05b18fcb0149668ab4e363dc2c5281)
+            ;
+
+            
+        
+    
+        var marker_1818e47f7b1145c8a4a6ad49e3cadc5d = L.marker(
+            [40.78654109, -73.98466513],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_a07b3c15c5c34613bc6f5a1f5e2671d0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f1d6834c441e485cab80fa867fa5a1a1 = $(`<div id="html_f1d6834c441e485cab80fa867fa5a1a1" style="width: 100.0%; height: 100.0%;">Riverside Park (79th Street)</div>`)[0];
+                popup_a07b3c15c5c34613bc6f5a1f5e2671d0.setContent(html_f1d6834c441e485cab80fa867fa5a1a1);
+            
+
+            marker_1818e47f7b1145c8a4a6ad49e3cadc5d.bindPopup(popup_a07b3c15c5c34613bc6f5a1f5e2671d0)
+            ;
+
+            
+        
+    
+        var marker_9af6bcfcee0d4b54b9ae2784ea2a67d6 = L.marker(
+            [40.78135323, -73.98807401],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_3b330799de664760b3f97e144e84f9f3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_41248205bd2745359ed3d4917c86aed0 = $(`<div id="html_41248205bd2745359ed3d4917c86aed0" style="width: 100.0%; height: 100.0%;">Riverside Park (72nd Street)</div>`)[0];
+                popup_3b330799de664760b3f97e144e84f9f3.setContent(html_41248205bd2745359ed3d4917c86aed0);
+            
+
+            marker_9af6bcfcee0d4b54b9ae2784ea2a67d6.bindPopup(popup_3b330799de664760b3f97e144e84f9f3)
+            ;
+
+            
+        
+    
+        var marker_f722ab26cdb949ecbbd329e8b4d580cf = L.marker(
+            [40.62760735, -73.90594225],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_00b3642aa465432d8ecfb2c53d3bb160 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b3234fc85adc4459ac92007eff59ed9b = $(`<div id="html_b3234fc85adc4459ac92007eff59ed9b" style="width: 100.0%; height: 100.0%;">ROWNY Paerdegat Basin</div>`)[0];
+                popup_00b3642aa465432d8ecfb2c53d3bb160.setContent(html_b3234fc85adc4459ac92007eff59ed9b);
+            
+
+            marker_f722ab26cdb949ecbbd329e8b4d580cf.bindPopup(popup_00b3642aa465432d8ecfb2c53d3bb160)
+            ;
+
+            
+        
+    
+        var marker_fc0c171294f8452eb562c6b8e73024c1 = L.marker(
+            [40.59045355, -73.81391141],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_f972fa317cd840e5bf60a2ed8836e3a7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_96ba67f9294f49f7996ffcffd6a58842 = $(`<div id="html_96ba67f9294f49f7996ffcffd6a58842" style="width: 100.0%; height: 100.0%;">Bay Breeze Park</div>`)[0];
+                popup_f972fa317cd840e5bf60a2ed8836e3a7.setContent(html_96ba67f9294f49f7996ffcffd6a58842);
+            
+
+            marker_fc0c171294f8452eb562c6b8e73024c1.bindPopup(popup_f972fa317cd840e5bf60a2ed8836e3a7)
+            ;
+
+            
+        
+    
+        var marker_350269efc35041b4a2d59a5329167fa6 = L.marker(
+            [40.73840238, -73.96021038],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_75c64489948f4dcfa42505f43c40e85d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_531e1ba757624c26a81f5ae651a65f89 = $(`<div id="html_531e1ba757624c26a81f5ae651a65f89" style="width: 100.0%; height: 100.0%;">Hunters Point South</div>`)[0];
+                popup_75c64489948f4dcfa42505f43c40e85d.setContent(html_531e1ba757624c26a81f5ae651a65f89);
+            
+
+            marker_350269efc35041b4a2d59a5329167fa6.bindPopup(popup_75c64489948f4dcfa42505f43c40e85d)
+            ;
+
+            
+        
+    
+        var marker_ede51bfdb6e14a2a93f034b27d07a806 = L.marker(
+            [40.80185938, -73.92553406],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_b2f532494bac4a34825a0add6d13f4a2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_da28471c203a481cbb4869fd9bb6e6ff = $(`<div id="html_da28471c203a481cbb4869fd9bb6e6ff" style="width: 100.0%; height: 100.0%;">Randalls Island</div>`)[0];
+                popup_b2f532494bac4a34825a0add6d13f4a2.setContent(html_da28471c203a481cbb4869fd9bb6e6ff);
+            
+
+            marker_ede51bfdb6e14a2a93f034b27d07a806.bindPopup(popup_b2f532494bac4a34825a0add6d13f4a2)
+            ;
+
+            
+        
+    
+        var marker_2281ffad0256474e8838a9f07d199646 = L.marker(
+            [40.8671849, -73.87310345],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_0dabc6eda76245c1ae1a786c74c5a8dd = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ca2ed902d2b44b81a0712dae1a32bb47 = $(`<div id="html_ca2ed902d2b44b81a0712dae1a32bb47" style="width: 100.0%; height: 100.0%;">Kazimiroff Boulevard at Bronx River Parkway</div>`)[0];
+                popup_0dabc6eda76245c1ae1a786c74c5a8dd.setContent(html_ca2ed902d2b44b81a0712dae1a32bb47);
+            
+
+            marker_2281ffad0256474e8838a9f07d199646.bindPopup(popup_0dabc6eda76245c1ae1a786c74c5a8dd)
+            ;
+
+            
+        
+    
+        var marker_fd9e31130d9c48f4b192fb968c12ad04 = L.marker(
+            [40.87736648, -73.86901961],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_345d3df6fc1840b78eb2325b8b897764 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5c401f99aa614664936362b7f3410e79 = $(`<div id="html_5c401f99aa614664936362b7f3410e79" style="width: 100.0%; height: 100.0%;">Fort Knox</div>`)[0];
+                popup_345d3df6fc1840b78eb2325b8b897764.setContent(html_5c401f99aa614664936362b7f3410e79);
+            
+
+            marker_fd9e31130d9c48f4b192fb968c12ad04.bindPopup(popup_345d3df6fc1840b78eb2325b8b897764)
+            ;
+
+            
+        
+    
+        var marker_ffa86e926f384929a370bd9e8ee73205 = L.marker(
+            [40.59187512, -73.76430924],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_872c1db36dc44dd784727d49cd367058 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9ed34854672e475cba974af283a3859b = $(`<div id="html_9ed34854672e475cba974af283a3859b" style="width: 100.0%; height: 100.0%;">Beach 32nd - Beach 33rd Street</div>`)[0];
+                popup_872c1db36dc44dd784727d49cd367058.setContent(html_9ed34854672e475cba974af283a3859b);
+            
+
+            marker_ffa86e926f384929a370bd9e8ee73205.bindPopup(popup_872c1db36dc44dd784727d49cd367058)
+            ;
+
+            
+        
+    
+        var marker_adef5b1d8e1e4651847297c1d358eec8 = L.marker(
+            [40.58981927, -73.7860468],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_410d53410d824f14a62500ee337d741d);
+        
+    
+            var popup_7c337177b64f4f9588bffc446de07a27 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bb6ffb14104f4ae9ac61333ab0d6a997 = $(`<div id="html_bb6ffb14104f4ae9ac61333ab0d6a997" style="width: 100.0%; height: 100.0%;">Beach 57th- Beach 58th Street</div>`)[0];
+                popup_7c337177b64f4f9588bffc446de07a27.setContent(html_bb6ffb14104f4ae9ac61333ab0d6a997);
+            
+
+            marker_adef5b1d8e1e4651847297c1d358eec8.bindPopup(popup_7c337177b64f4f9588bffc446de07a27)
+            ;
+
+            
+        
+</script>
